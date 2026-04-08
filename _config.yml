@@ -52,11 +52,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Original Theme, "Freelancer" was created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits:
 
 # Build settings
 markdown: kramdown
