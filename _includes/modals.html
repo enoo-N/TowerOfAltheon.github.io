@@ -20,7 +20,7 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
+              {% if post.character-name %}
               <li>Name:
                 <strong>{{ post.character-name }}</strong>
               </li>
@@ -30,7 +30,7 @@
                 <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
+              {% if post.made-in %}
               <li>Made In:
                 <strong>{{ post.made-in }}</strong>
               </li>
